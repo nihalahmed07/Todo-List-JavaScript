@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 600px;
+    width: 450px;
+    background-color: rgba(245, 245, 245, 0.5);
+    border-radius: 20px;
+}
+
+.box h2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    -webkit-text-stroke-color: #030323;
+    -webkit-text-stroke-width: 1.2px;
+    font-size: 28px;
+}
+
+.in-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 30px;
+}
+
+.in-box input {
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 250px;
+    height: 30px;
+}
+
+.in-box input:active {
+    border: none;
+}
+
+.in-box button {
+    border-radius: 4px;
+    height: 30px;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    color: white;
+    border: none;
+    background-color: #1f157e;
+
+}
+
+.in-box button:hover {
+    cursor: pointer;
+    border: 2px solid #030323;
+}
+
+#todo-list {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    z-index: 10;
+    padding: 0px 50px;
+    margin-top: 20px;
+
+}
+
+#todo-list p {
+    margin-top: 10px;
+    color: white;
+}
+
+#todo-list p:hover {
+    cursor: pointer;
+}
